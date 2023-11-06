@@ -9,7 +9,7 @@ export default function Patvscon() {
                         For Patients
                     </div>
                     <div>
-                        <div className='flex'>
+                        <div className='md:flex border '>
                             <div>
                                 <img src={doctor} className='h-16'></img>
                             </div>

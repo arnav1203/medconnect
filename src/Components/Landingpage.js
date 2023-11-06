@@ -7,14 +7,14 @@ export default function Landingpage() {
     return (
         <div className='h-screen'>
             <Navbar />
-            <div className='md:flex justify-between items-center w-full h-4/5'>
-                <div className='w-1/3 h-fit p-10'>
+            <div className='md:flex md:justify-between md:items-center w-full md:h-4/5'>
+                <div className='md:w-1/3 h-fit p-10'>
                     <div className=''>
                         <div className=''>
                             <p className='text-6xl font-bold text-slate-600 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0)] h-[70px]'>Pharmacy</p>
                         </div>
                         <div className='text-4xl font-bold text-slate-600'>
-                            <p className='h-11'>Landing Page</p>
+                            <p className='lg:h-11'>Landing Page</p>
                         </div>
                     </div>
                     <div className=''>
@@ -23,7 +23,7 @@ export default function Landingpage() {
                         </p>
                     </div>
                 </div>
-                <div className='animate-floaty'>
+                <div className='animate-floaty flex justify-center'>
                     <img src={doctor} alt='doctor'></img>
                 </div>
             </div>
