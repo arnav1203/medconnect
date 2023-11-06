@@ -35,7 +35,9 @@ export default function Landingpage() {
                     <button className='border h-10 w-28 rounded-3xl bg-gradient-to-br from-cyan-700 to-cyan-400 active:from-cyan-400 active:to-cyan-700'>Learn More</button>
                 </div>
             </div>
-            <Patvscon />
+            <div className='pt-20'>
+                <Patvscon />
+            </div>
         </div>
     )
 }
