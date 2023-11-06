@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import doctor from './assets/Doctor2.png'
+import Patvscon from './Patvscon'
 
 export default function Landingpage() {
     return (
@@ -23,7 +24,7 @@ export default function Landingpage() {
                     </div>
                 </div>
                 <div className='animate-floaty'>
-                    <img src={doctor}></img>
+                    <img src={doctor} alt='doctor'></img>
                 </div>
             </div>
             <div className='flex'>
@@ -34,6 +35,7 @@ export default function Landingpage() {
                     <button className='border h-10 w-28 rounded-3xl bg-gradient-to-br from-cyan-700 to-cyan-400 active:from-cyan-400 active:to-cyan-700'>Learn More</button>
                 </div>
             </div>
+            <Patvscon />
         </div>
     )
 }
