@@ -10,16 +10,16 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className='flex w-2/3 justify-evenly'>
-                    <div className='text-lg font-semibold'>
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
                         HOME
                     </div>
-                    <div className='text-lg font-semibold'>
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
                         NEWS
                     </div>
-                    <div className='text-lg font-semibold'>
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
                         PROJECT
                     </div>
-                    <div className='text-lg font-semibold'>
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
                         ABOUT US
                     </div>
                 </div>
