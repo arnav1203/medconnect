@@ -7,7 +7,7 @@ import building from './assets/building.svg'
 export default function Patvscon() {
     return (
         <div>
-            <div className='flex justify-around'>
+            <div className='md:flex md:justify-around'>
                 <div className='w-2/5'>
                     <div className='text-3xl'>
                         For Patients
