@@ -10,17 +10,25 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className='flex w-2/3 justify-evenly'>
-                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
-                        HOME
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
+                        <a className='' href='/'>
+                            HOME
+                        </a>
                     </div>
-                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
-                        NEWS
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
+                        <a href='/'>
+                            NEWS
+                        </a>
                     </div>
-                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
-                        PROJECT
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
+                        <a href='/'>
+                            PROJECT
+                        </a>
                     </div>
-                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950'>
-                        ABOUT US
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
+                        <a href='/'>
+                            ABOUT US
+                        </a>
                     </div>
                 </div>
             </div>
