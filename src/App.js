@@ -3,6 +3,7 @@ import './App.css';
 import Landingpage from './Components/Landingpage'
 import bg from './Components/assets/background.svg'
 import Login from './Components/Login';
+import Signup from "./Components/Signup";
 function App() {
   return (
     <div className="App relative h-screen">
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Landingpage />} />
             <Route path='/Login' element={<Login />} />
+            <Route path="/Signup" element={<Signup />} />
           </Routes>
         </Router>
       </div>
