@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import doctor from './assets/Doctor2.png'
 import Patvscon from './Patvscon'
+import Footer from './Footer'
 
 export default function Landingpage() {
     return (
@@ -37,6 +38,7 @@ export default function Landingpage() {
             </div>
             <div className='pt-20'>
                 <Patvscon />
+                <Footer />
             </div>
         </div>
     )

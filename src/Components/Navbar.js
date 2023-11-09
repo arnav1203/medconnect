@@ -35,7 +35,7 @@ export default function Navbar() {
                             ABOUT US
                         </a>
                     </div>
-                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
+                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 border px-4 rounded-xl border-blue-900 hover:bg-blue-700 hover:text-white hover:bg-clip-padding '>
                         <button onClick={login}>
                             LOGIN
                         </button>
