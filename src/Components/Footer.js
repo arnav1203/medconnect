@@ -43,7 +43,7 @@ export default function Footer() {
                         Copyright © 2023 University Hospitals
                     </div>
                 </div>
-                <div className='lg:flex'>
+                <div className='lg:flex pt-5'>
                     <div>
                         <div className='flex justify-start px-20'>
                             <p className='text-2xl text-gray-700'>Sign Up For Our Newsletter </p>
