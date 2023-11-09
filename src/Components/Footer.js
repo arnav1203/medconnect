@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Footer() {
+    const navigate = useNavigate();
+    const Signup = () => {
+        navigate('/Signup')
+    }
     return (
         <div className='bg-gray-300 p-10'>
             <div className='lg:flex'>
@@ -50,7 +55,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className='p-5'>
-                        <button className="relative mt-5 flex justify-center items-center border border-cyan-500 w-48 py-2 text-xl overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group">
+                        <button className="relative mt-5 flex justify-center items-center border border-cyan-500 w-48 py-2 text-xl overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group" onClick={Signup}>
                             <span className="w-48 h-64 rounded rotate-[-40deg] bg-cyan-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-16 group-hover:ml-8 group-hover:mb-32 group-hover:translate-x-0"></span>
                             <div><span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">Signup</span>
                             </div>

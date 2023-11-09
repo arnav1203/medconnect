@@ -8,12 +8,12 @@ export default function Patvscon() {
     return (
         <div>
             <div className='md:flex md:justify-around'>
-                <div className='w-2/5'>
+                <div className='md:w-2/5'>
                     <div className='text-3xl'>
                         For Patients
                     </div>
                     <div className='pt-10'>
-                        <div className='md:flex border p-2'>
+                        <div className='flex justify-center md:justify-start border p-2'>
                             <div className='w-28 h-28 flex justify-center items-center'>
                                 <img src={cross} className='h-16'></img>
                             </div>
@@ -36,7 +36,7 @@ export default function Patvscon() {
                             </div>
                         </div>
                         <hr />
-                        <div className='md:flex border p-2'>
+                        <div className='flex justify-center md:justify-start border p-2'>
                             <div className='w-28 h-28 flex justify-center items-center'>
                                 <img src={atm} className='h-16'></img>
                             </div>
@@ -59,7 +59,7 @@ export default function Patvscon() {
                             </div>
                         </div>
                         <hr />
-                        <div className='md:flex border p-2'>
+                        <div className='flex justify-center md:justify-start border p-2'>
                             <div className='w-28 h-28 flex justify-center items-center'>
                                 <img src={atm} className='h-16'></img>
                             </div>
@@ -89,12 +89,12 @@ export default function Patvscon() {
                         </div>
                     </div>
                 </div>
-                <div className='w-2/5'>
+                <div className='md:w-2/5'>
                     <div className='text-3xl'>
                         For Contributors
                     </div>
                     <div className='pt-10'>
-                        <div className='md:flex border p-2'>
+                        <div className='flex justify-center md:justify-start border p-2'>
                             <div className='w-28 h-28 flex justify-center items-center'>
                                 <img src={doctor} className='h-16'></img>
                             </div>
@@ -117,7 +117,7 @@ export default function Patvscon() {
                             </div>
                         </div>
                         <hr />
-                        <div className='md:flex border p-2'>
+                        <div className='flex justify-center md:justify-start border p-2'>
                             <div className='w-36 h-28 flex justify-center items-center'>
                                 <img src={book} className='h-16'></img>
                             </div>
@@ -142,7 +142,7 @@ export default function Patvscon() {
                             </div>
                         </div>
                         <hr />
-                        <div className='md:flex border p-2'>
+                        <div className='flex justify-center md:justify-start border p-2'>
                             <div className='w-28 h-28 flex justify-center items-center'>
                                 <img src={building} className='h-16'></img>
                             </div>
