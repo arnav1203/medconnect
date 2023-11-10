@@ -14,26 +14,26 @@ export default function Footer() {
                         <a>University Hospitals Logo</a>
                     </div>
                     <div className='flex flex-wrap space-x-5 space-y-3'>
-                        <div className='pt-3'>
+                        <div className='pt-3 hover:underline'>
                             <p>Privacy Policy</p>
                         </div>
-                        <div>
+                        <div className='hover:underline'>
                             <p>Terms and Conditions</p>
                         </div>
-                        <div>
+                        <div className='hover:underline'>
                             <p>
                                 Medconnect MyChart Terms and Conditions
                             </p>
                         </div>
-                        <div>
+                        <div className='hover:underline'>
                             <p>HIPAA Notice</p>
                         </div>
-                        <div>
+                        <div className='hover:underline'>
                             <p>
                                 Non-Discrimination Notice
                             </p>
                         </div>
-                        <div>
+                        <div className='hover:underline'>
                             <p>
                                 For Employees
                             </p>
