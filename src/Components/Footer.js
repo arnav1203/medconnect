@@ -11,7 +11,7 @@ export default function Footer() {
             <div className='lg:flex'>
                 <div className=''>
                     <div className='flex justify-start p-4 text-lg text-gray-700'>
-                        <a>University Hospitals Logo</a>
+                        <a href='/'>University Hospitals Logo</a>
                     </div>
                     <div className='flex flex-wrap space-x-5 space-y-3'>
                         <div className='pt-3 hover:underline'>
